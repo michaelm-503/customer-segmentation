@@ -224,6 +224,7 @@ K-Means has assigned the clients into 6 groups, which I’m labeling:
 | Porto                 |          38 |         934,779 |                    6 |      24,599 |                4 |      10,197 |         5,484 |      3,142 |        2,890 |     1,575 |      1,050 |
 
 </font>
+
 **Key cluster stats: number of clients, total and per client spending for each cluster, and category breakdown of average spending per client. Bold text indicates highest ranked cluster for each column.**
 
 ### Cluster 0: HoReCa Super-Spenders
@@ -312,9 +313,9 @@ Business recommendations:
 | 75%   |         2 |        3 |  38,694 |  12,126 |  9,465 |    13,916 |    1,691 |              6,707 |        1,894 |
 | max   |         2 |        3 |  62,889 |  31,714 | 16,729 |    24,033 |    5,641 |              9,836 |        4,485 |
 
-![image](assets/win_models/histogram_cluster_2.png)
-
 </font>
+
+![image](assets/win_models/histogram_cluster_2.png)
 
 ### HoReCa Clients (Cluster 1: HoReCa Other + Cluster 3: Lisbon HoReCa)
 
@@ -330,6 +331,8 @@ Business recommendations:
 
 **Cluster 1: HoReCa Other**
 
+<font size=1>
+
 |       |   Channel |   Region |   Total |   Fresh |   Milk |   Grocery |   Frozen |   Detergents_Paper |   Deli  |
 |:------|----------:|---------:|--------:|--------:|-------:|----------:|---------:|-------------------:|-------------:|
 | count |       153 |      153 |     153 |     153 |    153 |       153 |      153 |                153 |          153 |
@@ -341,9 +344,13 @@ Business recommendations:
 | 75%   |         1 |        3 |  22,394 |  11,635 |  3,373 |     3,823 |    2,665 |                841 |        1,130 |
 | max   |         2 |        3 |  36,953 |  26,539 |  9,250 |    16,483 |    9,931 |              4,595 |        4,485 |
 
+</font>
+
 ![image](assets/win_models/histogram_cluster_1.png)
 
 **Cluster 3: Lisbon HoReCa**
+
+<font size=1>
 
 |       |   Channel |   Region |   Total |   Fresh |   Milk |   Grocery |   Frozen |   Detergents_Paper |   Deli  |
 |:------|----------:|---------:|--------:|--------:|-------:|----------:|---------:|-------------------:|-------------:|
@@ -356,6 +363,8 @@ Business recommendations:
 | 75%   |         1 |        1 |  25,409 |  13,866 |  4,063 |     4,835 |    3,808 |                927 |        1,172 |
 | max   |         2 |        1 |  37,566 |  31,614 | 10,678 |    10,817 |    8,321 |              5,316 |        3,628 |
 
+</font>
+
 ![image](assets/win_models/histogram_cluster_3.png)
 
 ### Cluster 5: Porto Clients
@@ -367,6 +376,7 @@ Business recommendations:
 - It is possible that the low spending group still contains some boutique businesses or other inconsistent spenders that operate high margins at low volumes. Survey clients to obtain additional feature datasets that could help break the cluster into smaller groups.
 - Survey clients to understand if they have other business needs that are currently being met by other vendors and represent growth areas.
 
+<font size=1>
 
 |       |   Channel |   Region |   Total |   Fresh |   Milk |   Grocery |   Frozen |   Detergents_Paper | Deli  |
 |:------|----------:|---------:|--------:|--------:|-------:|----------:|---------:|-------------------:|-------------:|
@@ -379,9 +389,11 @@ Business recommendations:
 | 75%   |         2 |        2 |  31,663 |  16,306 |  3,494 |     7,490 |    3,552 |              2,076 |        1,204 |
 | max   |         2 |        2 |  52,304 |  29,635 | 14,982 |    13,829 |    9,931 |             10,069 |        3,508 |
 
+</font>
+
 ![image](assets/win_models/histogram_cluster_5.png)
 
-</font size>
+---
 
 ## Conclusions
 
