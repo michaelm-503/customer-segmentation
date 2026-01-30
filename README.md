@@ -54,7 +54,9 @@ This dataset appears to reference the two largest cities in Portugal, which are 
 | Oporto  | 1,555,088      | 10.6%  |
 | Other   | 10,677,599     | 73.0%  |
 
-</td><td>
+</td></tr></table></font>
+
+<font size=1>
 
 | Category  | Total Spending | %      |
 | --------- |:--------------:|:------:|
@@ -65,7 +67,7 @@ This dataset appears to reference the two largest cities in Portugal, which are 
 | Grocery   | 3,498,562      | 23.9%  |
 | Milk      | 2,550,357      | 17.4%  |
     
-</td></tr></table></font>
+</font>
 
 A population density map of Portugal for reference (Encyclopedia Britannica 2002):
 
@@ -144,7 +146,7 @@ This is verified by modeling ε 2.0-2.5, but visual checks quickly show that out
 
 ![Image](assets/models/DBSCAN_2.5.png)
 
-Outliers are captured in cluster -1. 27 clinches with average spending of 104k.
+Outliers are captured in cluster -1. 27 clients with average spending of 104k.
 
 <font size=1>
 
