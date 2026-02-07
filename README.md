@@ -2,28 +2,25 @@
 
 #### Table of Contents
 
-1. [What is Customer Segmentation](#what-is-customer-segmentation)
-2. [Objectives](#objectives)
-3. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-4. [Model Results](#model-results)
-5. [Cluster Analysis and Business Insights](#cluster-analysis-and-business-insights)
-6. [Conclusions](#conclusions)
+1. [Overview](#overview)
+2. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+3. [Model Results](#model-results)
+4. [Cluster Analysis and Business Insights](#cluster-analysis-and-business-insights)
+5. [Conclusions](#conclusions)
 
-#### What is Customer Segmentation?
+##Overview
 
-Customer segmentation is grouping customers into meaningful categories based on behavior or attributes. In an unsupervised setting, you do not have labels like “premium” or “churn risk.” Instead, you let patterns in the data suggest segments.
+This project applies unsupervised learning and exploratory analysis to segment customers for a wholesale food and supply distributor operating in Portugal. Using annual spending data across product categories, along with channel (HoReCa vs. Retail) and regional indicators, the goal is to uncover meaningful customer segments and translate those patterns into actionable business insights.
 
-A clustering model does not automatically create business meaning. The clustering step produces groups. Interpretation comes from what the features represent, how stable the clusters are, and whether the segments map to actions you can take.
+Rather than treating clustering as a purely technical exercise, this analysis emphasizes:
+- Understanding the business context behind the data
+- Evaluating multiple clustering approaches and their limitations
+- Iteratively refining features to balance model stability, interpretability, and usefulness
+- Connecting data-driven segments to practical strategies for growth, retention, and operations
 
----
+The workflow moves from exploratory data analysis and visualization, through model selection and feature engineering, to a detailed examination of customer clusters and tailored recommendations. Attention is paid to handling skewed spending distributions and outliers while ensuring that high-value clients remain part of actionable segments rather than being discarded as noise.
 
-#### Objectives
-
-- Clean and preprocess the data by handling missing values, applying transformations if needed, and scaling features so no single variable dominates the clustering.
-- Apply one or more clustering algorithms (for example K-Means, hierarchical clustering, or DBSCAN) and choose model parameters using appropriate diagnostics and metrics.
-- Assign each customer to a cluster and evaluate whether the resulting segments are stable and meaningfully separated.
-- Profile each cluster using summary statistics and visualizations to understand how the segments differ from one another.
-- Describe each segment in plain language and propose at least one concrete business action or insight that could be taken based on the segmentation.
+The final result is a six-cluster customer segmentation that highlights distinct purchasing behaviors across regions and channels, identifies high-value and growth-opportunity customers, and provides a foundation for targeted business strategies such as loyalty programs, cross-selling, service differentiation, and geographic expansion.
 
 ---
 
