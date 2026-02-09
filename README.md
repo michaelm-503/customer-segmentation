@@ -8,7 +8,7 @@
 4. [Cluster Analysis and Business Insights](#cluster-analysis-and-business-insights)
 5. [Conclusions](#conclusions)
 
-##Overview
+## Overview
 
 This project applies unsupervised learning and exploratory analysis to segment customers for a wholesale food and supply distributor operating in Portugal. Using annual spending data across product categories, along with channel (HoReCa vs. Retail) and regional indicators, the goal is to uncover meaningful customer segments and translate those patterns into actionable business insights.
 
