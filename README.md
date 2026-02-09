@@ -1,4 +1,4 @@
-# Customer Segmentation with Clustering
+# Customer Segmentation and Business Insights
 
 #### Table of Contents
 
